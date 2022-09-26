@@ -4,12 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Form validation using HTML | CSS | JAVASCRIPT</title>
-    <!--favicon link-->
-    <link rel="icon" type="image/x-icon" href="/icons8-form-64.png" />
-    <!--Normalize css link-->
-    <link rel="stylesheet" href="./styles/normalize.css" />
-    <!--font awesome cdn-->
+    <title>Form Validation in HTML | CSS | JavaScript</title>
+    <link rel="icon" type="image/x-icon" href="/assests/favicon.png" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -17,74 +13,68 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!--custom css-->
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="/styles/normalize.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
   </head>
   <body>
     <div class="container row">
       <div class="card">
-        <h1 class="title" id="title">Register Here</h1>
-        <div id="contain"></div>
+        <h1 class="title">User Details</h1>
         <form class="submit-form" id="form">
           <div class="form-control">
-            <label for="Username">Username</label>
+            <label for="username">User Name</label>
             <input
               type="text"
-              id="Username"
-              name="Username"
-              placeholder="Enter your name"
+              id="username"
+              name="username"
+              placeholder="For eg. John Connor"
             />
-            <small class="small">Username is required</small>
+            <small>User Name is Required</small>
           </div>
-
           <div class="form-control">
-            <label for="emali">email address</label>
+            <label for="email">Email</label>
             <input
               type="text"
               id="email"
               name="email"
-              placeholder="Enter your emali"
+              placeholder="For eg. john.connor@gmail.com"
             />
-            <small class="small">email is required</small>
+            <small>Email is Required</small>
           </div>
-
           <div class="form-control">
-            <label for="mobile">mobile number</label>
+            <label for="mobile">Mobile Number</label>
             <input
               type="number"
               id="mobile"
               name="mobile"
-              placeholder="Enter your mobile number"
+              placeholder="12345 67890"
             />
-            <small class="small">phone number is required</small>
+            <small>Mobile Number is Required</small>
           </div>
-
           <div class="form-control">
-            <label for="new-password">password</label>
+            <label for="new-password">Password</label>
             <input
               type="password"
               id="new-password"
               name="new-password"
               placeholder="Enter your password"
             />
-            <small class="small">password is required</small>
+            <small>Password is Required</small>
           </div>
-
           <div class="form-control">
-            <label for="confirm-password">confirm-password</label>
+            <label for="confirm-password">Confirm Password</label>
             <input
-              type="password"
+              type="text"
               id="confirm-password"
               name="confirm-password"
-              placeholder="confirm your password"
+              placeholder="Enter the Confirm Password"
             />
-            <small class="small">confirm password is required</small>
+            <small>Confirm Password is Required</small>
           </div>
-
           <button class="btn btn-light btn-block" type="submit">Submit</button>
         </form>
       </div>
     </div>
-    <script src="./script.js"></script>
+    <script src="./scripts/script.js"></script>
   </body>
 </html>
