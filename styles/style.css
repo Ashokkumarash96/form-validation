@@ -21,13 +21,11 @@
 html {
   font-size: 16px;
   scroll-behavior: smooth;
+  background-color: beige;
 }
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: url("https://i.pinimg.com/originals/08/2c/1b/082c1b9afd3036eef11fc6781aa9cc64.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 /* global css */
@@ -93,6 +91,7 @@ li {
   margin-top: 1rem;
   margin-bottom: 1.5rem;
 }
+
 .form-control {
   position: relative;
 }
